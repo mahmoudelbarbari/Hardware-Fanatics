@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<title>About Us</title>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="shortcut icon" type="image.png" href="Images/favicon.png">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+  <meta charset="utf-8">
+<link rel="StyleSheet" type="text/css" href="Styles.css">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+<title>About Us</title>
+
+<script type="text/javascript" src="javascript/jquery (1).js"></script>
+</head> 
+
+
+ <header>
+     
+ <a href="Home.html" class="logo"> <img src="Images/logo.jpg" alt="Page Logo" width="200" height="200"></a>
+     
+     <nav>
+          
+         
+        
+         <ul>
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="PC Components.html">PC Components</a></li>
+            <li><a href="Cart.html">Cart</a></li>
+            <li><a class="active" href="AboutUs.html">About Us</a></li>
+            <li><a href="ContactUs.html">Contact Us</a></li>
+         </ul>
+
+      </nav>
+    
+
+    </header>
+ 
+
+
+<body>
+	
+	
+	
+          <button class ="ScrollToTop">      
+        <i class = "material-icons">arrow_upward</i> 
+    </button>
+
+        <div class="searchBox">
+            <input class="searchInput"type="text" name="" placeholder="Search">
+            <button class="searchButton" href="#">
+                <i class="material-icons">
+                    <img src="Images/search.jpg" width="40" height="40">
+                </i>
+            </button>
+        </div>
+    
+	    
+<div class="buttons">
+  <div class="container">
+      <a href="Login.html" class="btn effect01" target="_blank"><span>Login</span></a>
+        <a href="Register.html" class="btn effect01" target="_blank"><span>Register</span></a>
+  </div>
+</div>
+	
+
+<div class ="AboutUsHeader">
+
+<div class="main">
+    
+    
+<h1> About US..</h1>
+<p>
+<b>The main website’s goal is to save users or consumers the time needed to research new hardware products... 
+	<span id="hiddenPara" hidden>
+	and to simply list the products for the users choosing(with reviews and pre-builts available to preview on the website.
+	The website simply lists recent, upcoming and future computer hardware such as Monitors, Graphics card, CPU’s etc…, it also entails recommendation of PC pre-builts.
+	The main goal of the website is to bring the consumer up to date information about hardware technology and help the consumer with the decision of buying said hardware.
+</span>
+</b>
+</span>
+</p>
+
+<button onclick="myFunction()" id="myBtn">Read more</button>
+    
+</div>
+</div>
+
+<script>
+	// read more/less done by Ahmed hany 185573
+	function myFunction() {
+		const isHidden = document.getElementById("hiddenPara").hidden;
+	  document.getElementById("hiddenPara").hidden = !isHidden;
+		if(isHidden){
+			document.getElementById('myBtn').innerText = "Read less";
+		}
+		else {
+			document.getElementById('myBtn').innerText = "Read more";
+		}
+	}
+	</script>
+
+	<footer class="footer">
+  	 <div class="footerContainer">
+  	 	<div class="row">
+  	 		<div class="footerCol">
+  	 			<h4 class = "CompanyName">Hardware Fanatics</h4>
+  	 			<ul>
+  	 				<li><a href="AboutUs.html">About us</a></li>
+  	 				<li><a href="Terms.html">Terms and Condition</a></li>
+  	 				<li><a href="Privacy.html">Privacy policy</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footerCol">
+  	 			<h4>get help</h4>
+  	 			<ul>
+  	 				<li><a href="faq.html">FAQ</a></li>
+  	 				<li><a href="Terms.html">shipping</a></li>
+  	 				<li><a href="Terms.html">returns</a></li>
+  	 				<li><a href="#">order status</a></li>
+  	 				<li><a href="Cart.html">payment options</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footerCol">
+  	 			<h4>Services</h4>
+  	 			<ul>
+					<li><a href="Cooling.html">Cooling</a></li>
+					<li><a href="CPUs.html">CPUs</a></li>
+					<li><a href="Memory.html">Memory</a></li>
+  	 				<li><a href="Cart.html">Delivery</a></li>
+                    <li><a href="Cart.html">Credit card</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footerCol">
+  	 			<h4>follow us</h4>
+  	 			<div class="social_links">
+  	 		        <a href="#"><i class="fab fa-facebook-f"></i></a>
+  	 				<a href="#"><i class="fab fa-twitter"></i></a>
+  	 				<a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+  	 		</div>
+  	 	</div>
+  	 </div>
+  </footer>
+			   
+
+</body>
+
+
+
+
+</html>
