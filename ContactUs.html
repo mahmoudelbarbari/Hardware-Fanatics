@@ -1,142 +1,118 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Contact Us</title>
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-<link rel="shortcut icon" type="image.png" href="Images/favicon.png">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<link rel="StyleSheet" type="text/css" href="Styles.css">
-<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-
-<script type="text/javascript" src="javascript/jquery (1).js"></script>
-
+  <title>Contact Us</title>
+  <meta charset="utf-8" />
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+	<link rel="shortcut icon" type="image.png" href="Images/favicon.png" />
+	<link rel="StyleSheet" type="text/css" href="public/css/main.css" />
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script type="text/javascript" src="public/js/main.js"></script>
 </head>
-	
-	 <header>
-     
- <a href="Home.html" class="logo"> <img src="Images/logo.jpg" alt="Page Logo" width="200" height="200"></a>
-     
-     <nav>
-          
-         
-        
-         <ul>
-            <li><a href="Home.html">Home</a></li>
-            <li><a href="PC Components.html">PC Components</a></li>
-            <li><a href="Cart.html">Cart</a></li>
-            <li><a href="AboutUs.html">About Us</a></li>
-            <li><a class="active" href="ContactUs.html">Contact Us</a></li>
-         </ul>
-
-      </nav>
-    
-
-    </header>
- 
 <body>
-	
-	
-          <button class ="ScrollToTop">      
-        <i class = "material-icons">arrow_upward</i> 
+  <header>
+		<a href="home.html" class="logo"> <img src="Images/logo.jpg" alt="Page Logo" width="200" height="200"></a>
+		<nav>
+			<ul>
+				<li><a href="home.html">Home</a></li>
+				<li><a href="pcComponents.html">PC Components</a></li>
+				<li><a href="cart.html">Cart</a></li>
+				<li><a href="aboutUs.html">About Us</a></li>
+				<li><a class="active" href="contactUs.html">Contact Us</a></li>
+			</ul>
+		</nav>
+	</header>
+
+  <button class="ScrollToTop">
+    <i class="material-icons">arrow_upward</i>
+  </button>
+
+  <div class="searchBox">
+    <input class="searchInput" type="text" name="" placeholder="Search">
+    <button class="searchButton" href="#">
+      <i class="material-icons">
+        <img src="Images/search.jpg" width="40" height="40">
+      </i>
     </button>
-
-        <div class="searchBox">
-            <input class="searchInput"type="text" name="" placeholder="Search">
-            <button class="searchButton" href="#">
-                <i class="material-icons">
-                  <img src="Images/search.jpg" width="40" height="40">
-                </i>
-            </button>
-        </div>
-	
-	<div class="buttons">
-  <div class="container">
-      <a href="Login.html" class="btn effect01" target="_blank"><span>Login</span></a>
-        <a href="Register.html" class="btn effect01" target="_blank"><span>Register</span></a>
   </div>
-</div>
-    
 
-<h3>Issuing Problem </h3>
+  <div class="buttons">
+    <div class="container">
+      <a href="login.html" class="btn effect01" target="_blank"><span>Login</span></a>
+      <a href="register.html" class="btn effect01" target="_blank"><span>Register</span></a>
+    </div>
+  </div>
 
-<div class="Contactcontainer">
-  <form action="/action_page.php">
-    <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+  <h3>Issuing Problem</h3>
 
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+  <div class="Contactcontainer">
+    <form action="/action_page.php">
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="fname" placeholder="Your name..">
 
-    <label for="country">Country</label>
-    <select id="country" name="country">
-      <option value="Egypt">Egypt</option>
-      <option value="Saudi Arabia">Saudi Arabia</option>
-      <option value="United Kingdom">United Kingdom</option>
-      <option value="France">France</option>
-      <option value="Germany">Germany</option>
-      <option value="canada">Canada</option>
-      <option value="usa">USA</option>
-    </select>
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lname" placeholder="Your last name..">
+
+      <label for="country">Country</label>
+      <select id="country" name="country">
+        <option value="Egypt">Egypt</option>
+        <option value="Saudi Arabia">Saudi Arabia</option>
+        <option value="United Kingdom">United Kingdom</option>
+        <option value="France">France</option>
+        <option value="Germany">Germany</option>
+        <option value="canada">Canada</option>
+        <option value="usa">USA</option>
+      </select>
       <label for="mobilenumber">Mobile Number</label>
-      <input type="text" id="lname" name="mobilenumber" placeholder="Write your Mobile Number..">
-
-     
+      <input type="text" id="mobilenumber" name="mobilenumber" placeholder="Write your Mobile Number..">
       <label for="specficproblem">specfic problem</label>
-     
-    <textarea id="subject" name="subject" placeholder="Write your specfic problem.." style="height:200px"></textarea>
+      <textarea id="subject" name="specficproblem" placeholder="Write your specfic problem.." style="height:200px"></textarea>
+      <input type="submit" value="Submit">
+    </form>
+  </div>
 
- <input type="submit" value="Submit">
-  </form>
-</div>
-	
-	
-<footer class="footer">
-  	 <div class="footerContainer">
-  	 	<div class="row">
-  	 		<div class="footerCol">
-  	 			<h4 class = "CompanyName">Hardware Fanatics</h4>
-  	 			<ul>
-  	 				<li><a href="AboutUs.html">About us</a></li>
-  	 				<li><a href="Terms.html">Terms and Condition</a></li>
-  	 				<li><a href="Privacy.html">Privacy policy</a></li>
-  	 			</ul>
-  	 		</div>
-  	 		<div class="footerCol">
-  	 			<h4>get help</h4>
-  	 			<ul>
-  	 				<li><a href="faq.html">FAQ</a></li>
-  	 				<li><a href="Terms.html">shipping</a></li>
-  	 				<li><a href="Terms.html">returns</a></li>
-  	 				<li><a href="#">order status</a></li>
-  	 				<li><a href="Cart.html">payment options</a></li>
-  	 			</ul>
-  	 		</div>
-  	 		<div class="footerCol">
-  	 			<h4>Services</h4>
-  	 			<ul>
-            <li><a href="Cooling.html">Cooling</a></li>
-            <li><a href="CPUs.html">CPUs</a></li>
-            <li><a href="Memory.html">Memory</a></li>
-  	 				<li><a href="Cart.html">Delivery</a></li>
-                    <li><a href="Cart.html">Credit card</a></li>
-  	 			</ul>
-  	 		</div>
-  	 		<div class="footerCol">
-  	 			<h4>follow us</h4>
-  	 			<div class="social_links">
-  	 		        <a href="#"><i class="fab fa-facebook-f"></i></a>
-  	 				<a href="#"><i class="fab fa-twitter"></i></a>
-  	 				<a href="#"><i class="fab fa-instagram"></i></a>
-                </div>
-  	 		</div>
-  	 	</div>
-  	 </div>
-  </footer>
-			   
-
-
+  <footer class="footer">
+		<div class="footerContainer">
+			<div class="row">
+				<div class="footerCol">
+					<h4 class="CompanyName">Hardware Fanatics</h4>
+					<ul>
+						<li><a href="aboutUs.html">About us</a></li>
+						<li><a href="terms.html">Terms and Condition</a></li>
+						<li><a href="privacy.html">Privacy policy</a></li>
+					</ul>
+				</div>
+				<div class="footerCol">
+					<h4>get help</h4>
+					<ul>
+						<li><a href="faq.html">FAQ</a></li>
+						<li><a href="terms.html">shipping</a></li>
+						<li><a href="terms.html">returns</a></li>
+						<li><a href="#">order status</a></li>
+						<li><a href="cart.html">payment options</a></li>
+					</ul>
+				</div>
+				<div class="footerCol">
+					<h4>Services</h4>
+					<ul>
+						<li><a href="cooling.html">Cooling</a></li>
+						<li><a href="cpus.html">CPUs</a></li>
+						<li><a href="memory.html">Memory</a></li>
+						<li><a href="cart.html">Delivery</a></li>
+						<li><a href="cart.html">Credit card</a></li>
+					</ul>
+				</div>
+				<div class="footerCol">
+					<h4>follow us</h4>
+					<div class="social_links">
+						<a href="#"><i class="fab fa-facebook-f"></i></a>
+						<a href="#"><i class="fab fa-twitter"></i></a>
+						<a href="#"><i class="fab fa-instagram"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
 </body>
 </html>
-
-    
