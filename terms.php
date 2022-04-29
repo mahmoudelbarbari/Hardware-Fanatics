@@ -2,9 +2,9 @@
 <html>
 <head>
     <title>Terms and Conditions</title>
-    <meta charset="utf-8" />
-    <link rel="shortcut icon" type="image.png" href="Images/favicon.png">
-    <link rel="StyleSheet" type="text/css" href="public/css/main.css" />
+	<?php
+	     require_once "head.php";
+	?>
     <style>
         header,
         header * {
@@ -17,18 +17,9 @@
     </style>
 </head>
 <body>
-    <header>
-        <a href="index.html" class="logo"> <img src="Images/logo.jpg" alt="Page Logo" width="200" height="200"></a>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="pcComponents.html">PC Components</a></li>
-                <li><a href="cart.html">Cart</a></li>
-                <li><a href="aboutUs.html">About Us</a></li>
-                <li><a href="contactUs.html">Contact Us</a></li>
-            </ul>
-        </nav>
-    </header>
+    <?php
+	     require_once "header.php";
+	?>
 
     <h1 style="color:darkgreen; text-align: center;">Welcome to Hardware Fanatics</h1>
 
@@ -280,48 +271,9 @@
     <h3 style="color:rebeccapurple;">Contact Details</h3>
 
     Egypt. | Zahraa El Maadi - Industrial Zone, Cairo | Tel: +20225218080 | Email: contact@Fresh- markets.com
-
-    <footer class="footer">
-        <div class="footerContainer">
-            <div class="row">
-                <div class="footerCol">
-                    <h4 class="CompanyName">Hardware Fanatics</h4>
-                    <ul>
-                        <li><a href="aboutUs.html">About us</a></li>
-                        <li><a href="terms.html">Terms and Condition</a></li>
-                        <li><a href="privacy.html">Privacy policy</a></li>
-                    </ul>
-                </div>
-                <div class="footerCol">
-                    <h4>get help</h4>
-                    <ul>
-                        <li><a href="faq.html">FAQ</a></li>
-                        <li><a href="terms.html">shipping</a></li>
-                        <li><a href="terms.html">returns</a></li>
-                        <li><a href="#">order status</a></li>
-                        <li><a href="cart.html">payment options</a></li>
-                    </ul>
-                </div>
-                <div class="footerCol">
-                    <h4>Services</h4>
-                    <ul>
-                        <li><a href="cooling.html">Cooling</a></li>
-                        <li><a href="cpus.html">CPUs</a></li>
-                        <li><a href="memory.html">Memory</a></li>
-                        <li><a href="cart.html">Delivery</a></li>
-                        <li><a href="cart.html">Credit card</a></li>
-                    </ul>
-                </div>
-                <div class="footerCol">
-                    <h4>follow us</h4>
-                    <div class="social_links">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
+    
+	<?php
+	     require_once "footer.php";
+	?>
 </body>
 </html>

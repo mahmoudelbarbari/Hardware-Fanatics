@@ -72,9 +72,9 @@ nav .menu-btn i {
   display: none;
 }
 
-input[type="checkbox"] {
+/* input[type="checkbox"] {
   display: none;
-}
+} */
 
 .searchBox {
   position: absolute;
@@ -498,10 +498,9 @@ a {
 
 }
 
-.itemSelect {
+/* .itemSelect {
   margin: 10px 0 0;
-
-}
+} */
 
 .BtnAddToCart {
   border: 1px solid #184d47;
@@ -545,7 +544,7 @@ a {
 }
 
 .wrapper {
-  width: 380px;
+  width: 400px;
   background: #fff;
   border-radius: 15px;
 
@@ -627,8 +626,8 @@ form .content .checkbox {
 }
 
 form .content input {
-  width: 15px;
-  height: 15px;
+  width: 48px;
+  height: 48px;
   background: green;
 }
 

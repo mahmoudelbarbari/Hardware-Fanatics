@@ -28,3 +28,11 @@ function didClickReadMoreButton() {
     document.getElementById('myBtn').innerText = "Read more";
   }
 }
+
+function selectActiveNavigationItem() {
+  $("header > nav > ul").children().children().toArray().forEach(function(element) {
+    if (element.href == window.location.href) {
+        element.classList = "active";
+    }
+});
+}
